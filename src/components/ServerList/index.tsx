@@ -11,7 +11,7 @@ const ServerList: React.FC = () => {
 
       <Separator />
 
-      <ServerButton hasNotifications />
+      <ServerButton hasNotifications={true} />
       <ServerButton mentions={5} />
   </Container>
   );
